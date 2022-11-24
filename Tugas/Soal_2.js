@@ -6,5 +6,11 @@
 
 module.exports = function perkalianDuaBilangan(a, b) {
     // Write your code here
+    var aInt = parseInt(a)
+    var bInt = parseInt(b)
+    var hasil = aInt * bInt
+    
+    return hasil
     
 }
+

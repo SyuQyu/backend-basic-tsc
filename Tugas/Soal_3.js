@@ -12,5 +12,12 @@
 
 module.exports = function authorize(role) {
     // Write your code here
+    if (role == "admin") {
+        return "Halo admin!"
+    } else if (role == "user") {
+        return "Halo user!"
+    } else {
+        return "Halo!"
+    }
     
 }

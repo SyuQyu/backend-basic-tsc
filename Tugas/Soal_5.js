@@ -13,5 +13,14 @@
 
 module.exports = function sortByAge(data) {
     // Write your code here
+    const returnName = []
+    const sortByAge = data.sort((first, second) => {
+        return first.age - second.age;
+    })
     
+    sortByAge.map((data, i) => {
+        returnName.push(data.name)
+    })
+    
+    console.log(returnName)
 }
